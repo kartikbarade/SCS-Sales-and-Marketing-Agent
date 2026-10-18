@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+
+# Frontend
+node_modules/
+dist/
+npm-debug.log*
+
+# Local data
+storage/documents/*
+storage/generated_reports/*
+!storage/documents/.gitkeep
+!storage/generated_reports/.gitkeep
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,1 @@
+# System Architecture\n\nReact frontend → FastAPI backend → MySQL and AI/RAG services.\n

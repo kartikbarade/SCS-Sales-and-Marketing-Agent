@@ -1,0 +1,1 @@
+# Database Design\n\nTables and relationships will be documented during database setup.\n
