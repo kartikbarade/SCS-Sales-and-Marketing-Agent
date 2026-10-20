@@ -20,6 +20,3 @@ Starter folder scaffold for the SCS AI-Powered QMS & ISO Consultancy project.
 9. Build dashboard and management pages
 10. Add AI chatbot, agent routing, and RAG knowledge base
 11. Add tests, documentation, and deployment
-
-## Important
-This ZIP is a project scaffold, not a complete working application yet. Placeholder files are intentionally provided so we can implement each level step by step. Do not put API keys in frontend code. Keep secrets in local `.env` files and do not commit them.
