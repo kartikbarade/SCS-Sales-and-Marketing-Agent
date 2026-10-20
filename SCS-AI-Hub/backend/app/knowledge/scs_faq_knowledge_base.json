@@ -1,0 +1,311 @@
+{
+  "metadata": {
+    "title": "SCS AI Hub Starter FAQ Knowledge Base",
+    "version": "1.0",
+    "language": "en",
+    "description": "50 starter FAQs for testing chatbot knowledge retrieval.",
+    "important_note": "This is sample content, not verified official SCS company information. Replace or approve company-specific answers with the SCS team before production."
+  },
+  "faqs": [
+    {
+      "id": "scs_faq_001",
+      "question": "What services does SCS provide?",
+      "answer": "The starter knowledge base lists ISO Certification, Quality Management, Training & Support, and Audit & Compliance as service categories. Verify these against the official SCS service list.",
+      "category": "Services"
+    },
+    {
+      "id": "scs_faq_002",
+      "question": "What is ISO certification?",
+      "answer": "ISO certification is an independent confirmation that an organization meets the requirements of a specified ISO management-system standard. The applicable standard depends on the organization's needs.",
+      "category": "Services"
+    },
+    {
+      "id": "scs_faq_003",
+      "question": "Why do companies seek ISO certification?",
+      "answer": "Organizations may pursue ISO certification to improve processes, demonstrate commitment to a management system, and meet customer or tender requirements. Benefits depend on the standard and implementation.",
+      "category": "Services"
+    },
+    {
+      "id": "scs_faq_004",
+      "question": "Which ISO standards can SCS help with?",
+      "answer": "Please confirm the exact ISO standards offered by SCS with the company team. This sample FAQ does not assume a complete list of supported standards.",
+      "category": "Services"
+    },
+    {
+      "id": "scs_faq_005",
+      "question": "How do I start an ISO certification inquiry?",
+      "answer": "You can use the Get in Touch form on the SCS website or share your contact details through the optional chatbot contact form.",
+      "category": "Services"
+    },
+    {
+      "id": "scs_faq_006",
+      "question": "What information should I prepare before asking about certification?",
+      "answer": "It is helpful to know your organization's industry, approximate size, locations, current processes, and the standard you are interested in.",
+      "category": "ISO Certification"
+    },
+    {
+      "id": "scs_faq_007",
+      "question": "How long does ISO certification take?",
+      "answer": "The timeline depends on the standard, organization size, current processes, readiness, and certification-body schedule. SCS should confirm an estimate for your specific case.",
+      "category": "ISO Certification"
+    },
+    {
+      "id": "scs_faq_008",
+      "question": "How much does ISO certification cost?",
+      "answer": "Costs vary by standard, organization size, scope, readiness, and certification arrangements. Contact SCS for a quote based on your requirements.",
+      "category": "ISO Certification"
+    },
+    {
+      "id": "scs_faq_009",
+      "question": "Is ISO certification mandatory for every company?",
+      "answer": "No. Whether certification is required depends on laws, contracts, customer requirements, and the organization's circumstances.",
+      "category": "ISO Certification"
+    },
+    {
+      "id": "scs_faq_010",
+      "question": "Can a small business apply for ISO certification?",
+      "answer": "Small businesses can pursue ISO certification when it fits their needs and they can implement the relevant requirements. The appropriate approach depends on the business.",
+      "category": "ISO Certification"
+    },
+    {
+      "id": "scs_faq_011",
+      "question": "What is a quality management system?",
+      "answer": "A quality management system is a set of policies, processes, responsibilities, and controls an organization uses to manage and improve quality.",
+      "category": "Quality & Standards"
+    },
+    {
+      "id": "scs_faq_012",
+      "question": "What is ISO 9001?",
+      "answer": "ISO 9001 is an international standard for quality management systems. Organizations use it to establish and continually improve processes focused on meeting customer and applicable requirements.",
+      "category": "Quality & Standards"
+    },
+    {
+      "id": "scs_faq_013",
+      "question": "What is ISO 14001?",
+      "answer": "ISO 14001 is an international standard for environmental management systems. Confirm with SCS whether this standard is within its current service scope.",
+      "category": "Quality & Standards"
+    },
+    {
+      "id": "scs_faq_014",
+      "question": "What is ISO 45001?",
+      "answer": "ISO 45001 is an international standard for occupational health and safety management systems. Confirm with SCS whether this standard is within its current service scope.",
+      "category": "Quality & Standards"
+    },
+    {
+      "id": "scs_faq_015",
+      "question": "What is an internal audit?",
+      "answer": "An internal audit is a planned review of processes and records to evaluate whether a management system meets defined requirements and is implemented effectively.",
+      "category": "Audits & Compliance"
+    },
+    {
+      "id": "scs_faq_016",
+      "question": "Why are audits important?",
+      "answer": "Audits can identify gaps, verify that processes are followed, and help an organization prioritize corrective actions and improvement.",
+      "category": "Audits & Compliance"
+    },
+    {
+      "id": "scs_faq_017",
+      "question": "What is a certification audit?",
+      "answer": "A certification audit is an assessment conducted by a certification body to determine whether a management system meets the applicable standard and certification requirements.",
+      "category": "Audits & Compliance"
+    },
+    {
+      "id": "scs_faq_018",
+      "question": "What is a nonconformity?",
+      "answer": "A nonconformity is a failure to meet a specified requirement. The organization generally needs to understand its cause and take appropriate corrective action.",
+      "category": "Audits & Compliance"
+    },
+    {
+      "id": "scs_faq_019",
+      "question": "What is corrective action?",
+      "answer": "Corrective action addresses the cause of a detected problem to help prevent it from happening again.",
+      "category": "Audits & Compliance"
+    },
+    {
+      "id": "scs_faq_020",
+      "question": "Can SCS help us prepare for an audit?",
+      "answer": "The sample service categories include Audit & Compliance. Contact SCS to confirm the available audit-preparation support and its scope.",
+      "category": "Audits & Compliance"
+    },
+    {
+      "id": "scs_faq_021",
+      "question": "Does ISO certification guarantee a product is perfect?",
+      "answer": "No. ISO management-system certification does not guarantee that every product or service is defect-free. It relates to the defined management system and audit scope.",
+      "category": "Certification Guidance"
+    },
+    {
+      "id": "scs_faq_022",
+      "question": "How long is an ISO certificate valid?",
+      "answer": "Validity and surveillance requirements depend on the certification scheme and certification body. Check the specific certificate and confirm details with the issuing body.",
+      "category": "Certification Guidance"
+    },
+    {
+      "id": "scs_faq_023",
+      "question": "What happens after certification?",
+      "answer": "Organizations typically need to continue operating and improving their management system and meet applicable surveillance or renewal requirements set by the certification body.",
+      "category": "Certification Guidance"
+    },
+    {
+      "id": "scs_faq_024",
+      "question": "Can an organization lose its certification?",
+      "answer": "Certification can be suspended, withdrawn, or not renewed if applicable requirements are not met. The exact process depends on the certification body's rules.",
+      "category": "Certification Guidance"
+    },
+    {
+      "id": "scs_faq_025",
+      "question": "What is a gap analysis?",
+      "answer": "A gap analysis compares current practices with the requirements of a target standard to identify areas that need attention.",
+      "category": "Certification Guidance"
+    },
+    {
+      "id": "scs_faq_026",
+      "question": "What is documentation in an ISO system?",
+      "answer": "Documentation may include policies, procedures, process descriptions, records, and other information needed to operate and demonstrate the management system.",
+      "category": "Certification Guidance"
+    },
+    {
+      "id": "scs_faq_027",
+      "question": "Do all companies need the same ISO documents?",
+      "answer": "No. Required documented information depends on the standard, organization context, risks, processes, and applicable requirements.",
+      "category": "Certification Guidance"
+    },
+    {
+      "id": "scs_faq_028",
+      "question": "Can existing processes be used for ISO implementation?",
+      "answer": "Often, existing processes can be adapted where they meet the relevant requirements. A review helps identify what needs to change.",
+      "category": "Certification Guidance"
+    },
+    {
+      "id": "scs_faq_029",
+      "question": "What is risk-based thinking?",
+      "answer": "Risk-based thinking means considering uncertainties that could affect intended results and taking proportionate action to address risks and opportunities.",
+      "category": "Certification Guidance"
+    },
+    {
+      "id": "scs_faq_030",
+      "question": "Does ISO certification improve customer confidence?",
+      "answer": "It may help demonstrate a structured management approach and support customer confidence, but the effect depends on customer expectations and the organization's performance.",
+      "category": "Certification Guidance"
+    },
+    {
+      "id": "scs_faq_031",
+      "question": "What training does SCS provide?",
+      "answer": "The sample service categories include Training & Support. Contact SCS to confirm current courses, formats, schedules, and eligibility.",
+      "category": "Training & Support"
+    },
+    {
+      "id": "scs_faq_032",
+      "question": "Can training be arranged for a team?",
+      "answer": "Team or customized training availability must be confirmed with SCS. Share your topic, team size, and preferred schedule through the contact form.",
+      "category": "Training & Support"
+    },
+    {
+      "id": "scs_faq_033",
+      "question": "Are training sessions online or in person?",
+      "answer": "The available delivery formats are not specified in this sample data. Contact SCS to confirm online, in-person, or other options.",
+      "category": "Training & Support"
+    },
+    {
+      "id": "scs_faq_034",
+      "question": "Do I receive a training certificate?",
+      "answer": "Certificate availability and eligibility depend on the specific training program. Confirm this with SCS before registering.",
+      "category": "Training & Support"
+    },
+    {
+      "id": "scs_faq_035",
+      "question": "How do I request a quotation?",
+      "answer": "Use the website's Get in Touch form or the chatbot's optional contact form. Include the service you are interested in and your basic requirements.",
+      "category": "Contact & Leads"
+    },
+    {
+      "id": "scs_faq_036",
+      "question": "How can I contact SCS?",
+      "answer": "Use the Get in Touch form on the SCS website or select Share Contact Details (Optional) in the chatbot so the team can follow up.",
+      "category": "Contact & Leads"
+    },
+    {
+      "id": "scs_faq_037",
+      "question": "Do I have to provide my phone number to use the chatbot?",
+      "answer": "No. You can ask the chatbot questions without sharing contact details. Contact information is optional unless you choose to submit an inquiry form.",
+      "category": "Contact & Leads"
+    },
+    {
+      "id": "scs_faq_038",
+      "question": "Can I ask questions without submitting a lead?",
+      "answer": "Yes. You can chat with the assistant without filling out the optional contact form.",
+      "category": "Contact & Leads"
+    },
+    {
+      "id": "scs_faq_039",
+      "question": "What happens when I submit the chatbot contact form?",
+      "answer": "The form submits the contact details and selected service to the site's lead-management system. The team can then review the inquiry.",
+      "category": "Contact & Leads"
+    },
+    {
+      "id": "scs_faq_040",
+      "question": "What details are needed to submit the contact form?",
+      "answer": "The current sample chatbot form asks for your name, email address, phone number, and the service you are interested in.",
+      "category": "Contact & Leads"
+    },
+    {
+      "id": "scs_faq_041",
+      "question": "Can I choose more than one service in the contact form?",
+      "answer": "The current sample chatbot form allows one service selection. You can mention additional interests in your message or contact the SCS team.",
+      "category": "Contact & Leads"
+    },
+    {
+      "id": "scs_faq_042",
+      "question": "How quickly will SCS respond to my inquiry?",
+      "answer": "A response-time commitment has not been provided in this sample knowledge base. Contact SCS directly if your inquiry is time-sensitive.",
+      "category": "Contact & Leads"
+    },
+    {
+      "id": "scs_faq_043",
+      "question": "Where is SCS located?",
+      "answer": "The company's verified address is not included in this sample knowledge base. Please check the official SCS website or contact the company for its current address.",
+      "category": "Company Information"
+    },
+    {
+      "id": "scs_faq_044",
+      "question": "What are SCS's business hours?",
+      "answer": "Verified business hours are not included in this sample knowledge base. Please check the official website or contact SCS for current hours.",
+      "category": "Company Information"
+    },
+    {
+      "id": "scs_faq_045",
+      "question": "Does SCS serve customers outside India?",
+      "answer": "The geographic service area has not been verified in this sample data. Contact SCS to confirm whether your location is supported.",
+      "category": "Company Information"
+    },
+    {
+      "id": "scs_faq_046",
+      "question": "How can I prepare for a consultation?",
+      "answer": "Prepare a short description of your organization, goals, current challenges, desired standard or service, and any relevant deadlines.",
+      "category": "Company Information"
+    },
+    {
+      "id": "scs_faq_047",
+      "question": "Can I ask for support after a service is completed?",
+      "answer": "Post-service support availability depends on the engagement terms and service selected. Refer to your agreement or contact SCS for clarification.",
+      "category": "Chatbot & General"
+    },
+    {
+      "id": "scs_faq_048",
+      "question": "What if the chatbot cannot answer my question?",
+      "answer": "You can ask a more specific question or submit your contact details through the optional form so the SCS team can follow up.",
+      "category": "Chatbot & General"
+    },
+    {
+      "id": "scs_faq_049",
+      "question": "Are the answers in this chatbot official company commitments?",
+      "answer": "These are starter FAQs for development and testing. Confirm company-specific details with SCS before using this file in production.",
+      "category": "Chatbot & General"
+    },
+    {
+      "id": "scs_faq_050",
+      "question": "How should I report an incorrect answer?",
+      "answer": "Please contact the SCS website administrator or project owner and provide the question and incorrect answer so the knowledge base can be updated.",
+      "category": "Chatbot & General"
+    }
+  ]
+}

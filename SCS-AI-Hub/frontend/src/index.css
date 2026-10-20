@@ -426,3 +426,205 @@ footer { padding: 48px max(28px, calc((100% - 1144px) / 2)) 20px; background: #1
 @media (max-width: 900px) { .crm-summary { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 760px) { .crm-heading { flex-direction: column; } .crm-heading > .button { width: 100%; justify-content: center; } .crm-customer-card { grid-template-columns: minmax(0, 1fr); } .crm-status { grid-row: 2; justify-self: start; } .crm-customer-notes, .crm-customer-actions { grid-column: 1; } .crm-customer-list { padding: 10px; } }
 @media (max-width: 480px) { .crm-summary { gap: 9px; } .crm-summary-card { padding: 14px; } .crm-summary-card strong { font-size: 24px; } .crm-contact-lines { flex-direction: column; } }
+
+
+
+/* Chatbot optional contact form */
+.chat-contact-option {
+  display: flex;
+  justify-content: center;
+  padding: 12px 14px 8px;
+}
+
+.chat-contact-option button {
+  width: 100%;
+  padding: 11px 14px;
+  border: 1px solid #d5e3f7;
+  border-radius: 12px;
+  background: #f0f6ff;
+  color: #174ea6;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.chat-contact-option button:hover {
+  background: #e2eeff;
+  border-color: #9bbcf2;
+}
+
+.chat-contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 6px 14px 14px;
+  padding: 18px;
+  border: 1px solid #e1e8f0;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 6px 22px rgba(15, 23, 42, 0.08);
+}
+
+.chat-contact-form::before {
+  content: "Get in Touch";
+  display: block;
+  margin-bottom: 2px;
+  color: #172b4d;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.chat-contact-form input,
+.chat-contact-form select {
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  padding: 12px 13px;
+  border: 1px solid #d8e0eb;
+  border-radius: 10px;
+  background: #f8fafc;
+  color: #1e293b;
+  font: inherit;
+  font-size: 13px;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.chat-contact-form input::placeholder {
+  color: #8995a6;
+}
+
+.chat-contact-form input:focus,
+.chat-contact-form select:focus {
+  border-color: #3678e5;
+  background: #ffffff;
+  box-shadow: 0 0 0 3px rgba(54, 120, 229, 0.12);
+}
+
+.chat-contact-form button[type="submit"] {
+  width: 100%;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #1769e0, #3548c5);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.chat-contact-form button[type="submit"]:hover {
+  transform: translateY(-1px);
+}
+
+.chat-contact-form button[type="submit"]:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.chat-contact-status {
+  margin: 4px 14px 10px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: #eff6ff;
+  color: #174ea6;
+  font-size: 12px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.chat-contact-form input,
+.chat-contact-form select,
+.chat-contact-form button {
+  font-family: inherit;
+}
+
+@media (max-width: 480px) {
+  .chat-contact-form {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 14px;
+    gap: 10px;
+  }
+
+  .chat-contact-option {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+
+/* Fix chatbot height and contact form visibility */
+
+.chat-window {
+  display: flex;
+  flex-direction: column;
+  height: min(620px, 80dvh);
+  max-height: 80dvh;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.chat-messages {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.chat-contact-option {
+  flex: 0 0 auto;
+  padding: 6px 12px;
+}
+
+.chat-contact-form {
+  flex: 0 1 auto;
+  min-height: 0;
+  max-height: 38dvh;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  margin: 4px 12px 8px;
+  padding: 12px;
+  gap: 8px;
+}
+
+.chat-contact-form::before {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.chat-contact-form input,
+.chat-contact-form select {
+  flex-shrink: 0;
+  padding: 10px 12px;
+}
+
+.chat-contact-form button[type="submit"] {
+  flex-shrink: 0;
+  position: sticky;
+  bottom: 0;
+  z-index: 2;
+  padding: 11px 12px;
+}
+
+.chat-contact-status {
+  flex: 0 0 auto;
+}
+
+.chat-form {
+  flex: 0 0 auto;
+}
+
+@media (max-width: 480px) {
+  .chat-window {
+    height: 80dvh;
+    max-height: 80dvh;
+  }
+
+  .chat-contact-form {
+    max-height: 35dvh;
+  }
+}

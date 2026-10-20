@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.api.v1.router import api_router
+from app.models import Lead, Customer
 
 app = FastAPI(title="SCS AI Hub API", version="0.1.0")
 

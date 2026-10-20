@@ -1,5 +1,6 @@
+
 from app.db.database import Base, engine
-from app.models.lead import Lead
+from app.models import Lead, Customer
 
 Base.metadata.create_all(bind=engine)
 
